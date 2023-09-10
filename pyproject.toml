@@ -1,0 +1,19 @@
+[project]
+name = "base-project"
+version = "0.1.0"
+description = "base configuration files for python projects"
+authors = [
+    {name = "Angel Ortiz", email = "code@angelortiz.io"},
+]
+dependencies = [
+    "pre-commit>=3.4.0",
+    "black>=23.9.0",
+    "ruff>=0.0.287",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
